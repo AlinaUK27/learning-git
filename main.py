@@ -6,6 +6,7 @@ shopping_dict ["господарчий"] = ["відро", "швабра"]
 del shopping_dict ["пекарня"]
 new_shopping_dict = {"магазин одягу":["сукня", "сумочка"]}
 shopping_dict.update(new_shopping_dict)
+shopping_dict["продуктовий"] = ["йогурт", "сир"]
 
 for keys, values in shopping_dict.items():
     print(f"Заходжу в {keys.title()}, купую тут такі товари:{values.__str__().title()}")
